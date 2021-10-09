@@ -1,5 +1,9 @@
+import React from 'react';
+import ReactDOM from 'react-dom'
 import styles from './style.module.css';
 import Contatos from "./contato.js";
+import Unidades from "./unidades.js";
+import casa from 'pages/img/casa.jpg';
 
 function Home() {
     return (
@@ -20,6 +24,8 @@ function Home() {
         <main className={styles.main}>
             <section>
                 <menu>
+                  {Unidades()}
+                  <img src={casa} alt="Minha Figura" />
                 </menu>
             </section>
         </main>
