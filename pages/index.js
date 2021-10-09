@@ -5,19 +5,19 @@ function Home() {
     return (
       <div className={styles.page}>
           <header className={styles.header}>
-            <p>
-                {"Lagoa Prateada"}
-            </p>
-        </header>
-
-        <main className={styles.main}>
+            <h1>
+                Lagoa Prateada
+            </h1>
             <nav>
               <ul>
-                <li><a href="#">Página inicial</a></li>
-                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Unidades</a></li>
                 <li><a href="#">Contato</a></li>
               </ul>
             </nav>
+        </header>
+
+        <main className={styles.main}>
             <section>
                 <menu>
                 </menu>
